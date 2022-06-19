@@ -10,7 +10,8 @@
 }
 
 .titre{
-	font-family:revue ;
+	font-family:fantasy;
+	font-style: italic;
 }
 
 .entete {
@@ -144,6 +145,7 @@ nav ul li a {
 	justify-content: space-around;
 	text-align: center;
 	flex-wrap: wrap;
+	font-style: italic;
 }
 
 .item {
@@ -305,5 +307,13 @@ td {
 
 .sig{
 	text-align: center;
+}
+
+.caros {
+	text-align: center;
+	border-left: 2px solid #a90303;
+	border-right: 2px solid #a90303;
+	box-shadow: 6px 7px 11px -6px;
+	font-style: italic;
 }
 
