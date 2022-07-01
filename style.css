@@ -64,6 +64,12 @@ li a:hover:after {
     justify-content: flex-end;
 }
 
+.cont {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
 .menu {
     padding-top: 1.2em;
    	text-align: end;
@@ -107,13 +113,9 @@ nav ul li a {
 	text-align: center;
 }
 
-#logo {
-	width: 6em;
-	display: flex;
-}
-
 .garage {
 	margin: 10px;
+	color: white;
 
 }
 
@@ -124,6 +126,44 @@ nav ul li a {
     flex-wrap: wrap;
     padding: 20px 30px;
     text-align: center;
+
+}
+
+.containe {
+
+
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.289), rgba(10, 10, 12, 0.207)), url(./img/vehicule_occasion/vehicules.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .image_entete {
@@ -307,13 +347,5 @@ td {
 
 .sig{
 	text-align: center;
-}
-
-.caros {
-	text-align: center;
-	border-left: 2px solid #a90303;
-	border-right: 2px solid #a90303;
-	box-shadow: 6px 7px 11px -6px;
-	font-style: italic;
 }
 
