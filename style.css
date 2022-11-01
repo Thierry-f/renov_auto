@@ -1,17 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;    
+}
 
+p{
+	margin: 10px;
+}
 
 .logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 30px;
     text-align: center;
-}
-
-.titre{
-	font-family:fantasy;
-	font-style: italic;
 }
 
 .entete {
@@ -19,22 +20,29 @@
 	height:auto ;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    /*
-    Margin
-    margin : 10px; -> HAUT / DROITE / BAS / GAUCHE
-    margin: 10px 20px; -> HAUT-BAS : 10px GAUCHE-DROITE : 20px
-    */
+.container1 {
+	display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     padding: 20px 30px;
+    background-color: rgb(11 52 199 / 20%);
+    border-radius: 0px 100px 100px 0px;
+    text-transform: uppercase;
+    margin-right: 45em;
+}
+
+.sous_titre{
+	text-align: center;
+	text-decoration: underline;
 }
 
 ul {
     /*liste non pas de style*/
     list-style: none;
+}
+
+.ethanol{
+	color: #21e121;
 }
 
 a {
@@ -96,17 +104,30 @@ nav ul li a {
 }
 
 .header {
-	display: flex;
-	justify-content: center;
+	margin: 0 auto;
+    width: 80%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
 }
 
-.titre {
-	display: flex;
-}
 
 .dkboost {
 	width: 100px;
 	height: 100px;
+}
+
+.tittle_centre_auto{
+	text-align: center;
+	color: red;
+}
+
+.prix{
+	color: red;
+	text-align: center;
 }
 
 .h2 {
@@ -114,8 +135,8 @@ nav ul li a {
 }
 
 .garage {
-	margin: 10px;
-	color: white;
+	width: 50%;
+    margin: auto;
 
 }
 
@@ -124,34 +145,27 @@ nav ul li a {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 30px;
     text-align: center;
 
 }
 
-.containe {
-
-
-}
-
-.container1 {
-    display: flex;
+.container5 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 20px 30px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.289), rgba(10, 10, 12, 0.207)), url(./img/vehicule_occasion/vehicules.png);
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
 }
+
+.caps{
+	width: 5em;
+}
+
+.agree {
+	width: 9em;
+
+}
+
 
 .container2 {
     display: flex;
@@ -174,19 +188,11 @@ nav ul li a {
 
 .img1 {
 	padding: 20px;
-	width: 200px;
+	width: 260px;
 	height: 150px;
-	display: flex;
 	justify-content: space-around;
 }
 
-.img {
-	display: flex;
-	justify-content: space-around;
-	text-align: center;
-	flex-wrap: wrap;
-	font-style: italic;
-}
 
 .item {
 	width: 200px;
@@ -200,7 +206,10 @@ nav ul li a {
   	padding: 20px; 
   	vertical-align: middle;
   	flex-wrap: wrap;
+}
 
+.lo {
+	height: 4em;
 }
 
 .text-wrap {
@@ -233,17 +242,15 @@ nav ul li a {
 }
 
 figure {
-    background: white;
-
     margin: 0;
 }
 
 .pic {
-	max-width: 100%;
+	max-width: 50%;
 	max-height: 100%;
 }
 
-.contact_1 {
+#contact_1 {
 	background: black;
 	justify-content: space-around;
     padding: 20px 30px;
@@ -271,7 +278,6 @@ figure {
 .p
 {
 	color: black;
-	width: 200px;
 	text-align: center;
 	padding: 5%;
 }
@@ -282,6 +288,11 @@ figure {
 }
 
 /*contact*/
+
+.lien_mail{
+	color: white;
+}
+
 .lien {
 	text-decoration: none;
 	color: black;
@@ -349,3 +360,153 @@ td {
 	text-align: center;
 }
 
+.cellule{
+	border: 2px solid black;
+	width: 50%;
+	text-align: center;
+}
+
+.cellule1{
+	border: 2px solid black;
+	width: 50%;
+	text-align: center;
+	background: linear-gradient(134deg, #3e00fd, #00000080);
+	color: aliceblue;
+
+}
+
+.cellule3{
+	border: 2px solid black;
+	width: 50%;
+	text-align: center;
+	background: linear-gradient(134deg, #ff7600, #00000080);
+
+}
+
+
+.titre{
+	text-align: center;
+	font-size: xx-large;
+}
+
+.mobile{
+	box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.service {
+	text-align: center;
+}
+
+
+td {
+	border: 2px solid black;
+}
+
+hr{
+	width: 50%;
+	margin: auto;
+}
+
+#scrollUp{
+	position: fixed;
+    bottom: 10px;
+    right: 	-100px;
+    opacity: 0.5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+*{box-sizing: border-box}
+
+img{max-width: 100%}
+
+input[type=radio]{
+
+position: absolute;
+left: -9999px
+
+}/*on cache tous les input*/
+	
+.slider-input label{
+	
+cursor:pointer/*on pointe tous les labels*/
+	
+}
+
+.slider-input{
+
+overflow: hidden;
+position: relative;
+max-width: 600px;
+margin: 2rem auto
+	
+	}
+
+
+.photos-mini{
+	
+	
+padding-top: 66.67%;/* il s'agit du ratio pour le responsive*/
+display: flex;
+
+	}
+
+.miniature{
+
+flex: 1; /*les photos occupent la même place selon la largeur du conteneur*/
+padding:.25rem;
+	
+}
+	
+
+.fenetre{/*grande photo*/
+
+position: absolute;
+top: 0;
+left: 0;
+transition:transform .6s,opacity .6s;
+transform:translatex(-100%);
+opacity: 0
+	
+	}
+
+.fen:checked~ .fenetre{
+	
+transform:translatex(0%);
+opacity: 1
+	
+	}
+
+.figcaption{/*optionnel*/
+
+position: absolute;
+top: 0;
+left: 0;
+padding: .25rem;
+transition: opacity .4s;
+opacity: 0;
+display: flex;
+justify-content: center;
+color: white;
+background: hsla(0,0%,0%,.8)
+
+}
+
+.fen:checked~.figcaption{
+
+opacity: 1
+	
+	}
+	
