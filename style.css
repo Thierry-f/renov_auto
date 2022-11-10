@@ -338,6 +338,7 @@ td {
 }
 
 .td {
+	border: 2px solid black;
 	border-right: 2px solid #a90303;
 	border-block: 2px solid #a90303;
 	display: inline-block;
@@ -405,11 +406,37 @@ td {
 }
 
 
-td {
-	border: 2px solid black;
+.detail{
+	display: flex;
+	margin: 20px;
+
 }
 
-hr{
+.grille{
+	margin: auto;
+	border-right: 2px solid;
+    border-bottom: 2px solid;
+    box-shadow: 5px 2px 20px 0px;
+}
+
+.ligne{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text{
+	color: #3031328f;
+    font-size: small;
+}
+
+.critere{
+	margin-left: 26%;
+    color: #a71313;
+    text-decoration: underline;
+}
+
+
+hr {
 	width: 50%;
 	margin: auto;
 }
@@ -421,6 +448,10 @@ hr{
     opacity: 0.5;
 }
 
+.liste{
+	text-align: center;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -428,7 +459,7 @@ html {
 
 
 
-*{box-sizing: border-box}
+
 
 img{max-width: 100%}
 
