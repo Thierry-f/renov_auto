@@ -45,6 +45,11 @@ ul {
 	color: #21e121;
 }
 
+.ethanol1{
+	text-align: center;
+	color: #21e121;
+}
+
 a {
     text-decoration: none;
     color: #000;
@@ -137,8 +142,10 @@ nav ul li a {
 .garage {
 	width: 50%;
     margin: auto;
-
+    box-shadow: 3px -2px 20px 1px;
+    border: 1px solid;
 }
+
 
 .container {
     display: flex;
@@ -146,6 +153,7 @@ nav ul li a {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    margin: 10px;
 
 }
 
@@ -432,13 +440,21 @@ td {
 .critere{
     color: #a71313;
     text-decoration: underline;
-	text-align: center;
+    text-align: center;
 }
 
 
 hr {
 	width: 50%;
 	margin: auto;
+}
+
+.trait{ 
+	width: 90%;
+}
+
+.res{
+	text-align: center;
 }
 
 #scrollUp{
@@ -457,7 +473,9 @@ html {
 }
 
 
-
+.pan{
+	box-shadow: 15px 0px 12px 0px;
+}
 
 
 
