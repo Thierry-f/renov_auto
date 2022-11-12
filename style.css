@@ -50,6 +50,43 @@ ul {
 	color: #21e121;
 }
 
+.ethanol2{
+	text-align: center;
+	color: #21e121;
+	font-size: xxx-large;
+}
+
+.etha{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.etha1{
+	width: 140px;
+}
+
+.def{
+	text-align: center;
+    color: #38a538;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.def1{
+	text-align: center;
+    margin-right: 100px;
+    font-size: larger;
+}
+
+.def2{
+	text-align: center;
+    margin-left: 100px;
+    font-size: larger;
+}
+
 a {
     text-decoration: none;
     color: #000;
