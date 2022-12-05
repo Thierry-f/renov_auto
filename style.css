@@ -275,7 +275,6 @@ nav ul li a {
 
 .card:hover {
     transform: scale(1.1);
-    color: red;
  
 }
 
@@ -304,6 +303,8 @@ figure {
 	text-align: center;
 }
 
+
+
 .maps {
 	display: flex;
 	align-items: center;
@@ -329,6 +330,13 @@ figure {
 .pa{
 	text-align: center;
 	width: 300px;
+}
+
+.contact_3{
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 /*contact*/
