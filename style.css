@@ -13,6 +13,7 @@ p{
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+
 }
 
 .entete {
@@ -52,7 +53,7 @@ ul {
 
 .ethanol2{
 	text-align: center;
-	color: #21e121;
+	color: #029908;
 	font-size: xxx-large;
 }
 
@@ -62,6 +63,9 @@ ul {
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    background-color: #0ee30e;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .etha1{
@@ -337,6 +341,7 @@ figure {
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
+	margin: 2%;
 }
 
 /*contact*/
@@ -605,4 +610,8 @@ background: hsla(0,0%,0%,.8)
 opacity: 1
 	
 	}
+
+.vendu {
+	margin-top: -60%;
+}
 	
