@@ -1,0 +1,26 @@
+slug: ford_c-max_dv698cb
+titre: Ford C-MAX 1.0 EcoBoost 125 S&S Titanium
+prix: 8500
+annee: 2015
+km: 116980
+carburant: Essence
+boite: Manuelle
+couleur: Grise
+cv_fiscaux: 6
+puissance_din: 125
+portes: 5
+places: 5
+type: Monospace
+
+description: Ford C-Max très propre, entretien à jour, prêt à partir. Idéal pour la famille, confortable et bien équipé.
+
+options:
+- 3 appuis-tête AR
+- 3 sièges AR indépendants rabattables et déposables
+- Climatisation automatique bizone
+- Aide au démarrage en côte
+- Aide au stationnement AR
+- Régulateur et limiteur de vitesse
+- Allumage auto des feux et essuie-glaces
+- Système Audio Nav Sync 3 avec écran tactile
+- Volant gainé cuir
